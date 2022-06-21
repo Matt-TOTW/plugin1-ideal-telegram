@@ -1,6 +1,6 @@
 {
   "name": "plugin1-ideal-telegram",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "",
   "scripts": {
     "rollup": "rollup -c"
@@ -36,5 +36,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@ngneat/falso": "^5.7.0"
+  }
 }
