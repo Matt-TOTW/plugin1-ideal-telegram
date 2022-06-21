@@ -1,6 +1,6 @@
 {
   "name": "plugin1-ideal-telegram",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "description": "",
   "scripts": {
     "rollup": "rollup -c"
