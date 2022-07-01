@@ -21,7 +21,7 @@ export default () => {
         padding: '10px',
       }}>
       <h1>Images</h1>
-      <div>
+      <div style={{ textAlign: 'center' }}>
         <label>Number of images</label>
         <input
           type='number'
