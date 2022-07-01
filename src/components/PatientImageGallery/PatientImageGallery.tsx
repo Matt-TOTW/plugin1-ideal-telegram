@@ -21,7 +21,7 @@ export default () => {
         padding: '10px',
       }}>
       <h1>Images</h1>
-      <div style={{ textAlign: 'center' }}>
+      <div>
         <label>Number of images</label>
         <input
           type='number'
@@ -31,6 +31,7 @@ export default () => {
           onChange={(e) => setNumber(parseInt(e.target.value))}
           style={{
             display: 'block',
+            margin: 'auto',
             marginTop: '10px',
             width: '3rem',
           }}
